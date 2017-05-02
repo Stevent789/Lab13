@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 13</title>
+  </head>
+  <body ng-app="ourModule" ng-controller="ourController">
+    <div class="random">
+      <button type="button" ng-click="addWord()">Words</button>
+      <button type="button" ng-click="addWord()">More Words</button>
+      <button type="button" ng-click="addWord()">Words with Decoration</button>
+      <button type="button" ng-click="addWord()">More Words with Decoration</button>
+  </div>
+
+  <div class="text">
+    <p ng-repeat ="item in moreWords track by $index">{{item.text}}</p>
+
+  </div>
+
+  <script src="lib/angular.min.js"></script>
+  <script src="lib/angular-route.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+
+  </body>
+</html>
