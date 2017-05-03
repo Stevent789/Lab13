@@ -1,0 +1,9 @@
+.special {
+  text-decoration: underline;
+  color: red;
+}
+
+.fancy {
+  text-decoration: underline;
+  color: blue;
+}
